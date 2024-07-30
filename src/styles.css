@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url(../src/lib/tree_background.jpeg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul li button {
+  margin-top: -1rem;
+}
+
+input {
+  padding: 0.25rem;
+  font-weight: bold;
+}
+
+button {
+  all: unset;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.2rem 0.6rem;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.style_basic {
+  margin: 2rem;
+  background-color: bisque;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.countdown_timer {
+  position: relative;
+  overflow: hidden;
+  text-transform: capitalize;
+  width: 30rem;
+  height: 10rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  background: url(../src/lib/timer.jpeg) no-repeat center center/cover;
+}
+
+.countdown_timer h1 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.countdown_timer .timer span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.countdown_form {
+  width: 30rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background: url(../src/lib/form.jpeg) no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+}
+
+.countdown_form button {
+  background-color: cyan;
+}
+
+.timer_end {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media (max-width: 480px) {
+  .countdown_timer {
+    width: 90vw;
+  }
+  .countdown_form {
+    width: 90vw;
+  }
+  .countdown_timer .timer span {
+    font-size: 10px;
+  }
+}
