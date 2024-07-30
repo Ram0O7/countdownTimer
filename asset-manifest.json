@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/countdownTimer/static/css/main.37337e97.css",
+    "main.js": "/countdownTimer/static/js/main.b476b881.js",
+    "static/media/form.jpeg": "/countdownTimer/static/media/form.da3d06628c5a93fb7b09.jpeg",
+    "static/media/timer.jpeg": "/countdownTimer/static/media/timer.0dbeadba43f8cbaec6f1.jpeg",
+    "static/media/tree_background.jpeg": "/countdownTimer/static/media/tree_background.561846707a144f7e61e1.jpeg",
+    "static/media/timer_end.mp3": "/countdownTimer/static/media/timer_end.38d589d77a0dce62b56c.mp3",
+    "index.html": "/countdownTimer/index.html",
+    "main.37337e97.css.map": "/countdownTimer/static/css/main.37337e97.css.map",
+    "main.b476b881.js.map": "/countdownTimer/static/js/main.b476b881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37337e97.css",
+    "static/js/main.b476b881.js"
+  ]
+}
